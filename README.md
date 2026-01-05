@@ -9,17 +9,22 @@ Multi-tenant team messaging system with access control.
 
 ## Installation & Setup
 
-1. Install dependencies:
+1. Clone project:
+```bash
+git clone https://github.com/Bounkhilatfati/communication-hub.git
+cd communication-hub
+```
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-2. Start development server:
+3. Start development server:
 ```bash
 npm run dev
 ```
 
-3. Open [http://localhost:3000](http://localhost:3000)
+4. Open [http://localhost:3000](http://localhost:3000)
 
 ## Testing
 
@@ -41,8 +46,8 @@ npm test
 ### Tests Implemented
 
 1. **Team Access Control Verification**
-  - User has no access before being team member
-  - User gains access after being added to team
+   - User has no access before being team member
+   - User gains access after being added to team
 
 2. **Non Member Message Prevention**
    - Only team members can view team messages
